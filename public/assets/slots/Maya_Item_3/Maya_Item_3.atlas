@@ -1,0 +1,11 @@
+Maya_Item_3.png
+size:880,320
+filter:Linear,Linear
+pma:true
+Maya_Item_3
+bounds:618,49,260,268
+Maya_Item_3_Light_0
+bounds:2,2,331,315
+Maya_Item_3_Light_1
+bounds:335,27,290,281
+rotate:90

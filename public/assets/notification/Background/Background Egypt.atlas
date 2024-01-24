@@ -1,0 +1,16 @@
+Background Egypt.png
+size:1880,656
+filter:Linear,Linear
+pma:true
+scale:0.3
+Maya_Back_0
+bounds:1755,195,74,132
+Maya_Back_1
+bounds:1673,117,210,80
+rotate:90
+Maya_Back_List
+bounds:1157,70,514,581
+Maya_Back_Totem
+bounds:1673,329,203,322
+Maya_Background
+bounds:2,2,1153,649

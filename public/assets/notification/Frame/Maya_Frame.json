@@ -1,0 +1,149 @@
+{
+    "skeleton": {
+        "hash": "ghcFALVPkoI",
+        "spine": "4.1.24",
+        "x": -1034.49,
+        "y": -1002.97,
+        "width": 2069,
+        "height": 2006,
+        "images": "../images/",
+        "audio": "D:/Design/Lime/Spine/Maya/Animation"
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "камні рамки копія",
+            "bone": "root",
+            "attachment": "камні рамки копія"
+        },
+        {
+            "name": "Шар 2",
+            "bone": "root",
+            "attachment": "Шар 2"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "камні рамки копія": {
+                    "камні рамки копія": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            947.51,
+                            -916.97,
+                            -947.49,
+                            -916.97,
+                            -947.49,
+                            916.03,
+                            947.51,
+                            916.03
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 1895,
+                        "height": 1833
+                    }
+                },
+                "Шар 2": {
+                    "Шар 2": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1034.51,
+                            -1002.97,
+                            -1034.49,
+                            -1002.97,
+                            -1034.49,
+                            1003.03,
+                            1034.51,
+                            1003.03
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 2069,
+                        "height": 2006
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "Шар 2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 2,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

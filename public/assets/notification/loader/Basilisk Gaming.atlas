@@ -1,0 +1,45 @@
+Basilisk Gaming.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.8
+Bas
+bounds:0,1359,1449,230
+Gam
+bounds:0,575,1707,250
+Line
+bounds:0,2025,18,230
+rotate:90
+blur 01
+bounds:1280,1830,518,213
+blur 02
+bounds:0,1101,676,258
+blur 03
+bounds:1798,1545,498,245
+rotate:90
+blur 04
+bounds:506,1617,573,228
+blur 05
+bounds:1079,1589,611,241
+offsets:9,0,629,241
+blur 06
+bounds:1449,1275,557,270
+blur 07
+bounds:676,1090,606,269
+blur 08
+bounds:1282,999,655,276
+offsets:45,0,745,276
+blur 09
+bounds:0,825,579,276
+offsets:19,0,617,276
+blur 10
+bounds:0,1735,506,221
+snake 1
+bounds:910,1845,370,198
+snake 2
+bounds:608,1904,302,139
+snake 3
+bounds:398,1956,87,210
+rotate:90
+snake 4
+bounds:230,1959,168,84

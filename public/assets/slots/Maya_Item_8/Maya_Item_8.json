@@ -1,0 +1,382 @@
+{
+    "skeleton": {
+        "hash": "rtRspSM81hI",
+        "spine": "4.1.24",
+        "x": -1468.46,
+        "y": -1317.95,
+        "width": 2935.56,
+        "height": 2632.44,
+        "images": "../images/",
+        "audio": "D:/Design/Lime/Spine/Fruit/Animatiom/Spine"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "y": -1932
+        },
+        {
+            "name": "bone",
+            "parent": "root",
+            "x": -3.19,
+            "y": 941.95
+        },
+        {
+            "name": "L",
+            "parent": "bone",
+            "x": 0.07,
+            "y": 129.05
+        }
+    ],
+    "slots": [
+        {
+            "name": "mask",
+            "bone": "root",
+            "attachment": "mask"
+        },
+        {
+            "name": "Maya_Item_8_Light_0",
+            "bone": "root",
+            "attachment": "Maya_Item_8_Light_0"
+        },
+        {
+            "name": "Maya_Item_8",
+            "bone": "root",
+            "attachment": "Maya_Item_8"
+        },
+        {
+            "name": "Maya_Item_8_Light_1",
+            "bone": "root",
+            "attachment": "Maya_Item_8_Light_1"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "mask": {
+                    "mask": {
+                        "type": "clipping",
+                        "end": "mask",
+                        "vertexCount": 4,
+                        "vertices": [
+                            1,
+                            1,
+                            -3242,
+                            -1645.02,
+                            1,
+                            1,
+                            1,
+                            3239.34,
+                            -1673.9,
+                            1,
+                            1,
+                            1,
+                            3167.17,
+                            5023.97,
+                            1,
+                            1,
+                            1,
+                            -3083.21,
+                            5009.54,
+                            1
+                        ],
+                        "color": "ce3a3aff"
+                    }
+                },
+                "Maya_Item_8": {
+                    "Maya_Item_8": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            1,
+                            760.34,
+                            342.18,
+                            1,
+                            1,
+                            1,
+                            -954.73,
+                            342.18,
+                            1,
+                            1,
+                            1,
+                            -954.73,
+                            1857.82,
+                            1,
+                            1,
+                            1,
+                            760.34,
+                            1857.82,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 215,
+                        "height": 190
+                    }
+                },
+                "Maya_Item_8_Light_0": {
+                    "Maya_Item_8_Light_0": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            2,
+                            1470.23,
+                            -456.94,
+                            1,
+                            1,
+                            2,
+                            -1465.33,
+                            -456.94,
+                            1,
+                            1,
+                            2,
+                            -1465.33,
+                            2175.49,
+                            1,
+                            1,
+                            2,
+                            1470.23,
+                            2175.49,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 368,
+                        "height": 330
+                    }
+                },
+                "Maya_Item_8_Light_1": {
+                    "Maya_Item_8_Light_1": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            1,
+                            2,
+                            988.69,
+                            116.14,
+                            1,
+                            1,
+                            2,
+                            -1023.68,
+                            116.14,
+                            1,
+                            1,
+                            2,
+                            -1023.68,
+                            1833.74,
+                            1,
+                            1,
+                            2,
+                            988.69,
+                            1833.74,
+                            1
+                        ],
+                        "hull": 4,
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 275,
+                        "height": 235
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "Boom": {
+            "slots": {
+                "Maya_Item_8": {
+                    "rgba": [
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "Maya_Item_8_Light_0": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "Maya_Item_8_Light_1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.4333,
+                            "x": 0.626,
+                            "y": 0.626
+                        },
+                        {
+                            "time": 0.6667
+                        }
+                    ]
+                },
+                "L": {
+                    "scale": [
+                        {
+                            "time": 0.4333
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 1.683,
+                            "y": 1.683
+                        }
+                    ]
+                }
+            }
+        },
+        "Jump": {
+            "slots": {
+                "Maya_Item_8_Light_0": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "Maya_Item_8_Light_1": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bone": {
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.3333,
+                            "y": 1.24
+                        },
+                        {
+                            "time": 0.5,
+                            "y": 0.969
+                        },
+                        {
+                            "time": 0.5333
+                        },
+                        {
+                            "time": 0.6,
+                            "y": 0.969
+                        },
+                        {
+                            "time": 0.6667
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
