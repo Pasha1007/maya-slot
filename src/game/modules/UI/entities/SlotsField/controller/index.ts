@@ -147,7 +147,7 @@ export class Controller {
     const winAmount = Number(game_result.win_amount);
     const { totalBet } = this.manager.state.gameState;
     const multiplier = winAmount / totalBet;
-
+    //change for 0
     if (multiplier >= 10) {
       let winType: WiningType = "win";
       if (multiplier >= 50 && multiplier < 100) winType = "bigWin";

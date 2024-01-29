@@ -55,6 +55,7 @@ export class SpinButton extends Container {
     this.skipIcon = createSprite({
       textureName: "skipIcon",
     });
+    this.skipIcon.position.set(-60, 38)
     this.skipIcon.visible = false;
 
     this.addChild(this.btn, this.btnHover, this.arrow, this.skipIcon);

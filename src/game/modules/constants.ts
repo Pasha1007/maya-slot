@@ -18,7 +18,7 @@ export const TOTAL_ROWS = 8;
 
 export const slotsFieldSizes = {
   desktop: {
-    w: 910,
+    w: 900,
     h: 890,
   },
   mobile: {

@@ -34,19 +34,19 @@ export class Button extends Container {
       size: 220,
     });
     const buttonsContainer = new Container();
-    if(this.key === "min"){
+    if (this.key === "min") {
       this.button = createSprite({
         textureName: "minButton",
         size: 230,
       });
 
-    }else if(this.key === "max"){
+    } else if (this.key === "max") {
       this.button = createSprite({
         textureName: "maxButton",
         size: 220,
       });
 
-    }else{
+    } else {
       this.button = createSprite({
         textureName: "totalBetBlockButton",
         size: 212,
@@ -110,13 +110,13 @@ export class Button extends Container {
   onButtonOver = () => {
     if (this.disabled) return;
 
-    if(this.key === "min") {
+    if (this.key === "min") {
       this.minButtonHover.visible = true;
       this.isOver = true;
-    }else if(this.key === "max") {
+    } else if (this.key === "max") {
       this.maxButtonHover.visible = true;
       this.isOver = true;
-    }else{
+    } else {
       this.isOver = true;
       this.buttonHover.visible = true;
     }
@@ -146,6 +146,9 @@ export class Button extends Container {
 
     if (this.isOver && disable) {
       this.buttonHover.visible = false;
+      this.minButtonHover.visible = false;
+      this.maxButtonHover.visible = false;
+
     }
   };
 

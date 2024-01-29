@@ -99,7 +99,6 @@ export class MobileGamePanel extends Container {
       adornment: this.balanceAdorment,
       valueStyle: {
         fontSize: theme.mobile.fontSize.primary,
-        fill: theme.color.white
       },
     });
 

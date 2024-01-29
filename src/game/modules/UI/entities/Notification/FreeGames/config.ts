@@ -14,12 +14,12 @@ type FreeGamesConfigVersionType = {
 export const config: FreeGamesConfigVersionType = {
   mobile: {
     offsetX: 0,
-    offsetY: 750,
+    offsetY: 430,
     size: screenSizes.mobile.width * 0.95,
   },
   desktop: {
     offsetX: 0,
-    offsetY: 940,
+    offsetY: 560,
     size: screenSizes.desktop.width * 0.55,
   },
 };

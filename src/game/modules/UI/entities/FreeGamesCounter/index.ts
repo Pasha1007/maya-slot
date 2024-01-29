@@ -17,7 +17,7 @@ export class FreeGamesCounter extends Container {
     super();
 
     this.position.set(600, -120);
-    this.visible = true;
+    this.visible = false;
     const freeSpinsTextContainer = new Container();
     this.freeSpinesBg = createSprite({
       textureName: "freeCounterBg",

@@ -30,15 +30,15 @@ export const slotsConfig: SlotsConfigType[] = [
     borderColor: 0x22eaa0,
     mobile: {
       slotSize: slotsSizes.mobile,
-      spineSize: mobileSpineSize,
+      spineSize: mobileSpineSize + 10,
       offsetY: 0,
       offsetX: 0,
     },
     desktop: {
       slotSize: slotsSizes.desktop,
       spineSize: desctopSpineSize + 20,
-      offsetY: 0,
-      offsetX: 0,
+      offsetY: 10,
+      offsetX: 30,
     },
   },
   {
@@ -48,7 +48,7 @@ export const slotsConfig: SlotsConfigType[] = [
     mobile: {
       slotSize: slotsSizes.mobile,
       spineSize: mobileSpineSize,
-      offsetY: 0,
+      offsetY: -5,
       offsetX: 0,
     },
     desktop: {
@@ -64,7 +64,7 @@ export const slotsConfig: SlotsConfigType[] = [
     mobile: {
       slotSize: slotsSizes.mobile,
       spineSize: mobileSpineSize,
-      offsetY: 0,
+      offsetY: -5,
       offsetX: 0,
     },
     desktop: {
@@ -81,13 +81,13 @@ export const slotsConfig: SlotsConfigType[] = [
     mobile: {
       slotSize: slotsSizes.mobile,
       spineSize: mobileSpineSize + 5,
-      offsetY: 0,
-      offsetX: 0,
+      offsetY: -5,
+      offsetX: 15,
     },
     desktop: {
       slotSize: slotsSizes.desktop,
       spineSize: desctopSpineSize,
-      offsetY: 0,
+      offsetY: -5,
       offsetX: 0,
     },
   },
@@ -130,14 +130,14 @@ export const slotsConfig: SlotsConfigType[] = [
     borderColor: 0xa5a6a8,
     mobile: {
       slotSize: slotsSizes.mobile,
-      spineSize: mobileSpineSize,
-      offsetY: 0,
+      spineSize: mobileSpineSize - 10,
+      offsetY: -5,
       offsetX: 0,
     },
     desktop: {
       slotSize: slotsSizes.desktop,
       spineSize: desctopSpineSize - 10,
-      offsetY: 0,
+      offsetY: -5,
       offsetX: 0,
     },
   },
@@ -148,7 +148,7 @@ export const slotsConfig: SlotsConfigType[] = [
     mobile: {
       slotSize: slotsSizes.mobile,
       spineSize: mobileSpineSize,
-      offsetY: 0,
+      offsetY: -5,
       offsetX: 0,
     },
     desktop: {
@@ -163,14 +163,14 @@ export const slotsConfig: SlotsConfigType[] = [
     key: SlotKeys.WILD,
     mobile: {
       slotSize: slotsSizes.mobile,
-      spineSize: 115,
-      offsetY: 9,
+      spineSize: 105,
+      offsetY: 5,
       offsetX: 0,
     },
     desktop: {
       slotSize: slotsSizes.desktop,
-      spineSize: 150,
-      offsetY: 15,
+      spineSize: 140,
+      offsetY: 10,
       offsetX: 0,
     },
   },

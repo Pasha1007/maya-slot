@@ -59,21 +59,13 @@ export class Slot extends Container {
       const screenConfig = slotConfig[this.screenVersion];
 
       this.spineSlot = new CustomSpine({ spineResource: resources[slotConfig.name] });
-      this.spineSlot.setSpineFirstFrame = (animationName: string) => {
-        const animation = this.spineSlot.spine.spineData.findAnimation(animationName);
-        if (!animation) {
-          console.error(`Animation not found: ${animationName}`);
-          return;
-        }
-      };
-
-
+      this.spineSlot.setSpineFirstFrame("light");
       this.spineSlot.resize(screenConfig.spineSize);
 
       const defaultOffsetX = this.spineSlot.width / 2;
       const defaultOffsetY = (ScreenVersion.MOBILE)
         ? this.spineSlot.h + screenConfig.offsetY + 12
-        : this.spineSlot.h + screenConfig.offsetY
+        : this.spineSlot.h + screenConfig.offsetY + 12
 
       this.spineSlot.move({
         x: (this.slotW - this.spineSlot.width) / 3 + defaultOffsetX,

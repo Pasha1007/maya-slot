@@ -261,7 +261,7 @@
         }
     ],
     "animations": {
-        "Boom": {
+        "light": {
             "slots": {
                 "Maya_Item_4": {
                     "rgba": [
@@ -335,7 +335,7 @@
                 }
             }
         },
-        "Jump": {
+        "jump": {
             "slots": {
                 "Maya_Item_4_Light_0": {
                     "rgba": [

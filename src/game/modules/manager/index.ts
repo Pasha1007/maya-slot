@@ -20,7 +20,7 @@ export class MayaManager {
       session_token: "",
       available_bets: [0.2, 0.4, 0.6, 1, 2, 3, 4, 5, 6, 7, 8, 10],
       game_state: {
-        balance: "",
+        balance: "100",
         currency: "EURO",
       },
     },
@@ -91,11 +91,12 @@ export class MayaManager {
       this.emitter.runAutoSpin();
     }
 
-    const { data, error } = await postFetch<SpinFetchResult>("api/egyptian-lands/spin", {
+    const { data, error } = await postFetch<SpinFetchResult>("api/candy-wonderland/spin", {
       variables: {
-        session_token: this.state.init.session_token,
-        bet_amount: this.state.gameState.totalBet,
-        client_seed: this.state.gameState.clientSeed,
+        session_token: 'b879b9e23dab8615fdad380fcbe89892_656675df699e8',
+        bet_amount: this.state.gameState.totalBet ? this.state.gameState.totalBet : 0.2,
+        client_seed: 'zq4Rm3WKyLvJ7nHxOi9QdP6EpBvFwNlM2GsTcXuYvAzJ8eNb9Tj1hI5KqUlUoQa',
+        bet_id: ""
       },
     });
     if (error) {
@@ -108,7 +109,7 @@ export class MayaManager {
       this.setValue("setTargetGameTable", {
         gameTable: this.state.sesionResult.game_result.steps[0].game_field,
       });
-      this.setValue("setBalance", this.state.gameState.balance - this.state.gameState.totalBet);
+      this.setValue("setBalance", this.state.gameState.balance + this.state.gameState.totalBet);
       this.emitter.play();
     }
   };
